@@ -35,12 +35,28 @@ class MyHomePage extends StatelessWidget {
     var appState = context.watch<MyAppState>();
 
     return Scaffold(
-      body: Column(
+        body: Center(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
         children: [
           Text('Ini Aplikasi Rheina Putri Ferdiansyah'),
           Text(appState.current.asLowerCase),
+
+          // ↓ Add this.
+          ElevatedButton(
+            onPressed: () {
+              print('button pressed!');
+            },
+            child: Text('Next'),
+          ),
         ],
       ),
-    );
+      // body: Column(
+      //   children: [
+      //     Text('Ini Aplikasi Rheina Putri Ferdiansyah'),
+      //     Text(appState.current.asLowerCase),
+      //   ],
+      // ),
+    ));
   }
 }
