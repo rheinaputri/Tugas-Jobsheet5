@@ -10,4 +10,8 @@ A new Flutter project.
 Final 
 ![screenshot](images/final.png)
 
-### Menambahkan Fungsi
+### Menambahkan Tombol
+![screenshot](images/tombol.png)
+
+### Menambahkan kolom samping navigasi
+![screenshot](images/kolom.png)
