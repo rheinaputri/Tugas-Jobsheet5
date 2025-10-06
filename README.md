@@ -18,3 +18,6 @@ Final
 
 ### Menambahkan kolom navigasi
 ![screenshot](images/navigasi.png)
+
+### Menambahkan halaman baru
+![screenshot](images/newpage.png)
