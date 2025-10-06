@@ -15,3 +15,6 @@ Final
 
 ### Menambahkan kolom samping navigasi
 ![screenshot](images/kolom.png)
+
+### Menambahkan kolom navigasi
+![screenshot](images/navigasi.png)
